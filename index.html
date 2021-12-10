@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rythemic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./styles/style.css" rel="stylesheet">
+    <link rel="icon" href="./assets/site_logo.jpeg" type="image/gif" sizes="16x16">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./assets/logo.jpeg" alt="Rythemic"><span>Rythemic</span></li>
+        </ul> 
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Top Songs</h1>
+            <div class="songlistcontainer">
+                <div class="songitem">
+                    <img src="./assets/cover/cover1.jpeg" class="imag" alt="1">
+                    <span class="songname">How you Like that</span>
+                    <span id="1">03:03</span> <i id="music1" class="fa fa-2x fa-play-circle pad songitemplay"></i>
+                </div>
+                <div class="songitem">
+                    <img src="./assets/cover/cover2.jpg" class="imag" alt="1">
+                    <span class="songname">Believer</span>
+                    <span id="2">03:24</span> <i id="music2" class="fa fa-2x fa-play-circle pad songitemplay"></i>
+                </div>
+                <div class="songitem">
+                    <img src="./assets/cover/cover3.jpg" class="imag" alt="1">
+                    <span class="songname">Thunder</span>
+                    <span id="3">03:24</span> <i id="music3" class="fa fa-2x fa-play-circle pad songitemplay"></i>
+                </div>
+                <div class="songitem">
+                    <img src="./assets/cover/cover4.jfif" class="imag" alt="1">
+                    <span class="songname">Shape of You</span>
+                    <span id="4">04.23</span> <i id="music4" class="fa fa-2x fa-play-circle pad songitemplay"></i>
+                </div>
+                <div class="songitem">
+                    <img src="./assets/cover/cover5.jpg" class="imag" alt="1">
+                    <span class="songname">Cheap Thrills</span>
+                    <span id="5">03.37</span> <i id="music5" class="fa fa-2x fa-play-circle pad songitemplay"></i>
+                </div>
+                <div class="songitem">
+                    <img src="./assets/cover/cover6.png" class="imag" alt="1">
+                    <span class="songname">Faded</span>
+                    <span id="6">03:22</span> <i id="music6" class="fa fa-2x fa-play-circle pad songitemplay"></i>
+                </div>
+                <div class="songitem">
+                    <img src="./assets/cover/cover7.jpg" class="imag" alt="1">
+                    <span class="songname">Swalla</span>
+                    <span id="7">03:55</span> <i id="music7" class="fa fa-2x fa-play-circle pad songitemplay"></i>
+                </div>
+                <div class="songitem">
+                    <img src="./assets/cover/cover8.jpg" class="imag" alt="1">
+                    <span class="songname">I'm on my way</span>
+                    <span id="8">03:36</span> <i id="music8" class="fa fa-2x fa-play-circle pad songitemplay"></i>
+                </div>
+                <div class="songitem">
+                    <img src="./assets/cover/cover9.jpg" class="imag" alt="1">
+                    <span class="songname">Ignite</span>
+                    <span id="9">03:27</span> <i id="music9" class="fa fa-2x fa-play-circle pad songitemplay"></i>
+                </div>
+                <div class="songitem">
+                    <img src="./assets/cover/cover10.jfif" class="imag" alt="1">
+                    <span class="songname">Senorita</span>
+                    <span id="10">03:11</span> <i id="music10" class="fa fa-2x a fa-play-circle pad songitemplay"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="low">
+            <span id="ctime">00:00</span>
+            <input type="range" id="progressbar" min="0" value="0" max="100">
+            <span id="ftime">03:03</span>
+        </div>
+        <div class="songinfo">
+            <img src="./assets/playing.gif" id="gif">
+            <span id="mastername">How You Like That</span>
+        </div>
+        <div class="icons">
+            <i id="previous" class="fa fa-2x fa-step-backward pad" style="margin-right: 10px;"></i>
+            <i class="fa fa-2x fa-play pad " id="masterplay"></i>
+            <i id="next" class="fa fa-2x fa-step-forward pad"></i>
+        </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html> 

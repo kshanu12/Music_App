@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@media only screen and (max-width: 600px) {
+    .container{
+        margin: 2% auto;
+        width:85% !important;
+        background-image: none !important; 
+        background-size: 0%;
+    }
+    .songlist{
+        width:100% !important;
+    }
+    .low{
+        width:95% !important;
+    }
+}
+
+body{
+    background-color: rgb(245, 230, 210);
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Roboto',sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none; 
+    height:65px;
+    background-color: black;
+    color:white;
+}
+
+nav ul li{
+    padding:0 12px 0 12px;
+}
+
+.brand img{
+    width: 100px;
+    padding :0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:1.5em;
+}
+
+.songitemplay{
+    cursor: pointer;
+}
+
+.container{
+    min-height:40vh;
+    background-color:black;
+    color:white;
+    font-family:'Varela Round',sans-serif;
+    display: flex;
+    margin:2% auto;
+    border-radius: 15px;
+    padding:20px;
+    width:70%;
+    background-image: url("../assets/background.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.songname{
+    width: 60%;
+}
+
+.bottom{
+    background-color: black;
+    position: sticky;
+    height: 15vh;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+}
+
+#progressbar{
+    width:70vw;
+    cursor:pointer;
+    background: red;
+}
+
+.icons{
+    margin-top: 15px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+ 
+.pad {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.songitem{
+    height:40px;
+    display: flex;
+    background-color: white;
+    width:100%;
+    color:black;
+    margin:12px 0;
+    justify-content:space-between ;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.songlistcontainer{
+    margin-top: 30px;
+    width:100%;
+}
+
+.songitem img{
+    width:15%;
+    margin:0 23px;
+    border-radius: 50%;
+    height:35px;
+    width:35px;
+}
+
+.songlist{
+    width:60%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position:absolute;
+    left:10vw;
+    margin-top: 2%;
+}
+
+.songinfo img{
+    font-family:'Varela Round',sans-serif;
+    width:70px;
+    opacity: 0;
+    transition: 0.4s ease-in;
+}
+
+.t{
+    padding-bottom: 10px;
+}
+
+.low{
+    display:flex;
+    justify-content: space-between;
+    width:85%;
+}
+

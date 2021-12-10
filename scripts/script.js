@@ -94,6 +94,7 @@ const nextss=()=>
     masterplay.classList.add("fa-pause");
     activestatus=1;
     play_gif(1);
+    same_song_play=0;
 }
 
 
@@ -171,6 +172,7 @@ Array.from(document.getElementsByClassName("songitemplay")).forEach((element)=>
             masterplay.classList.add("fa-pause");
             activestatus=1;
             first_master_play=1;
+            same_song_play=0;
         }
     })
 })
@@ -193,6 +195,7 @@ document.getElementById("previous").addEventListener("click",()=>{
     masterplay.classList.add("fa-pause");
     activestatus=1;
     play_gif(1);
+    same_song_play=0;
 })
 
 document.getElementById("next").addEventListener("click",()=>{
